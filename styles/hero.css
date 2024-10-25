@@ -138,11 +138,10 @@ section#hero {
   & #hero {
     display: flex;
     flex-direction: column-reverse;
-
-    & .content {
-      max-width: 19.5rem;
-      margin-inline: auto;
     
+    & .content {
+      max-width: 22.5rem;
+      margin-inline: auto;
     }
 
     & #star-1 {
@@ -157,7 +156,8 @@ section#hero {
   }
   & .container {
     margin-inline: auto;
-    max-width: 19.5rem;
+    max-width: 22.5rem;
+    padding-bottom: 3rem;
     & h1 {
       font-size: 2rem;
       margin-top: -8rem;
@@ -172,6 +172,7 @@ section#hero {
     & .buttons {
       display: flex;
       flex-direction: column-reverse;
+      max-width: 17.75rem;
     }
     
   }
